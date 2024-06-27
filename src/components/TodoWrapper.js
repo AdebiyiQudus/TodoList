@@ -40,7 +40,8 @@ export const TodoWrapper = () => {
   return (
     <div className="TodoWrapper">
       <h1>Get Things Done!</h1>
-      <TodoForm addTodoProp={addTodo}/>
+      <TodoForm addTodoProp={addTodo}
+      git add/>
 
        {/* Generate a todo for each value in the state */}
       {todos.map((todo, index) => (
