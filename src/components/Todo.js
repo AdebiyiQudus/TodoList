@@ -10,7 +10,8 @@ export default function Todo({taskProp,
     <div className="Todo">
       <p onClick={() => toggleCompleteProp(taskProp.id)}
        className={`${taskProp.completed ? 'completed' : ""}`}>
-        {taskProp.task}</p>
+        {taskProp.task}
+        </p>
 
       <div>
         <FontAwesomeIcon icon={faPenToSquare} 
