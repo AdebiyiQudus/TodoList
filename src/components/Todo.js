@@ -18,7 +18,8 @@ export default function Todo({taskProp,
           onClick={() => editTodoProp(taskProp.id)}
           />
         <FontAwesomeIcon icon={faTrash}
-         onClick={() => deleteTodoProp(taskProp.id)}/>
+         onClick={() => deleteTodoProp(taskProp.id)}
+         />
       </div>
     </div>
   )
